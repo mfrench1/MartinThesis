@@ -26,7 +26,7 @@ module load bio-misc
 module load R/gcc7/3.6.1
 
 # Read in values from command line
-SubsetReads=20000
+SubsetReads=100000
 THREADS=20
 
 if [ -z $SubsetReads ]; then
